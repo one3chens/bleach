@@ -7,7 +7,8 @@ flake8==3.3.0
 tox==2.4.1
 
 # Requirements for building docs
-Sphinx==1.5.2
+Sphinx==3.0.4
 
 # Requirements for updating package
 twine==1.8.1
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
