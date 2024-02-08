@@ -11,3 +11,7 @@ Sphinx==1.5.2
 
 # Requirements for updating package
 twine==1.8.1
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
